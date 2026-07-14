@@ -146,6 +146,32 @@
 .skills-grid{
     grid-template-columns:1fr;
 }
+.connect-card{
+    padding:30px 20px;
+}
+
+.connect-card h2{
+    font-size:42px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.connect-card p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+.connect-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.connect-buttons .btn{
+    width:100%;
+    padding:16px;
+    font-size:20px;
+}
 
 }
 
