@@ -1,56 +1,167 @@
-@media(max-width:991px){
+/* =========================
+   Laptop
+========================= */
+
+@media (max-width:1200px){
+
+.hero{
+    padding:140px 6% 80px;
+    gap:50px;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero-image img{
+    width:350px;
+}
+
+}
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width:991px){
+
+    .navbar{
+        padding:18px 5%;
+    }
+
+    .hero{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:40px;
+        padding:120px 5% 70px;
+    }
+
+    .hero-content{
+        order:1;
+        width:100%;
+        max-width:700px;
+    }
+
+    .hero-image{
+        order:2;
+        display:flex;
+        justify-content:center;
+        width:100%;
+        margin-top:30px;
+    }
+
+    .hero-image img{
+        width:300px;
+        max-width:100%;
+        height:auto;
+    }
+
+    .buttons{
+        justify-content:center;
+    }
+
+    .hero-stats{
+        grid-template-columns:repeat(2,1fr);
+    }
 
     .about-grid{
-
         grid-template-columns:1fr;
-
     }
-
-    .large-card{
-
-        min-height:auto;
-
-    }
-
-}
-@media(max-width:992px){
 
     .skills-grid{
-
         grid-template-columns:repeat(2,1fr);
-
     }
-
-}
-
-@media(max-width:576px){
-
-    .skills-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-}
-@media(max-width:991px){
 
     .project-row,
     .project-row.reverse{
-
         flex-direction:column;
-
     }
 
     .project-info{
-
         text-align:center;
-
     }
 
     .tech-stack{
-
         justify-content:center;
-
     }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width:768px){
+
+.navbar{
+    padding:15px 20px;
+}
+
+.nav-links{
+    display:none;
+}
+
+.notify-btn{
+    display:none;
+}
+
+.hero{
+    padding:120px 20px 60px;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero h3{
+    font-size:24px;
+}
+
+.hero-image{
+    width:220px;
+}
+
+ .buttons{
+        flex-direction:column;
+        flex-wrap:nowrap;
+        align-items:center;
+    }
+
+.btn{
+        width:100%;
+        max-width:320px;
+ }
+
+.hero-stats{
+    grid-template-columns:1fr;
+}
+
+.skills-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+
+/* =========================
+   Small Mobile
+========================= */
+
+@media (max-width:480px){
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero-image{
+    width:180px;
+}
 
 }
