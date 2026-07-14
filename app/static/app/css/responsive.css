@@ -1,0 +1,56 @@
+@media(max-width:991px){
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .large-card{
+
+        min-height:auto;
+
+    }
+
+}
+@media(max-width:992px){
+
+    .skills-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .skills-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+@media(max-width:991px){
+
+    .project-row,
+    .project-row.reverse{
+
+        flex-direction:column;
+
+    }
+
+    .project-info{
+
+        text-align:center;
+
+    }
+
+    .tech-stack{
+
+        justify-content:center;
+
+    }
+
+}
