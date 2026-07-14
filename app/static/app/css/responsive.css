@@ -172,7 +172,36 @@
     padding:16px;
     font-size:20px;
 }
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    flex-wrap:nowrap;
+}
 
+.logo{
+    font-size:22px;
+    white-space:nowrap;
+}
+
+.nav-links{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    gap:10px;
+    flex-wrap:nowrap;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    font-size:13px;
+    white-space:nowrap;
+}
 }
 
 
